@@ -1,0 +1,15 @@
+{
+  "name": "chrome-back",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "backend for chrome-extension project",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "jose": "^5.9.3"
+  },
+  "author": "Lucas Siqueira Girao Pinto",
+  "license": "ISC"
+}

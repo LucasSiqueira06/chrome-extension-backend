@@ -49,7 +49,7 @@ export default async function handler(req, res) {
         model: "llama-3.3-70b-versatile",
         temperature: 0.2,
         messages: [
-          { role: "system", content: "Resuma com linguagem simples, tópicos curtos e foco em clareza." },
+          { role: "system", content: "Resuma com linguagem simples e foco em clareza." },
           { role: "user", content: `Resuma para alguém com TDAH/pouco tempo:\n\n${text}` }
         ]
       })
@@ -66,3 +66,4 @@ export default async function handler(req, res) {
     return res.status(401).json({ error: e.message });
   }
 }
+
